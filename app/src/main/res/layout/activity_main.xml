@@ -45,9 +45,19 @@
         android:id="@+id/tv_verCifrado"
         android:layout_width="250dp"
         android:layout_height="100dp"
-        android:layout_marginTop="64dp"
+        android:layout_marginTop="86dp"
         android:text="TextView"
         app:layout_constraintEnd_toEndOf="@+id/editTextNumber"
         app:layout_constraintStart_toStartOf="@+id/editTextNumber"
+        app:layout_constraintTop_toBottomOf="@+id/btnCifrar" />
+
+    <ProgressBar
+        android:id="@+id/pb_calculo"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="111dp"
+        android:layout_height="18dp"
+        android:layout_marginTop="32dp"
+        app:layout_constraintEnd_toEndOf="@+id/btnCifrar"
+        app:layout_constraintStart_toStartOf="@+id/btnCifrar"
         app:layout_constraintTop_toBottomOf="@+id/btnCifrar" />
 </androidx.constraintlayout.widget.ConstraintLayout>
